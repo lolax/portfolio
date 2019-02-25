@@ -30,6 +30,11 @@ export default {
   width: 60%;
   max-width: 60rem;
 }
+@media (max-width: 980px) {
+  .view {
+    width: 100%;
+  }
+}
 html {
   font-size: 62.5%;
   box-sizing: border-box;
