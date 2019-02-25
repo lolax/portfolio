@@ -1,8 +1,19 @@
 <template>
-  <div id='app'>
-    <router-link class='link' to='/'>welcome</router-link>
+  <div id="app">
+    <Nav />
+    <router-view class="view" />
   </div>
 </template>
+
+<script>
+import Nav from './components/nav/Nav.vue'
+export default {
+  name: 'app',
+  components: {
+    Nav,
+  },
+}
+</script>
 
 <style>
 #app {
@@ -11,6 +22,16 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.view {
+  width: 60%;
+  max-width: 60rem;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
 }
 </style>
