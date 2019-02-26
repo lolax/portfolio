@@ -13,7 +13,7 @@
       <div class='separator'>/</div>
       <router-link class='link' to='/writing'>writing</router-link>
       <div class='separator'>/</div>
-      <router-link class='link' to='/contact'>contact</router-link>
+      <router-link class='link' to='/connect'>connect</router-link>
     </div>
   </div>
 </template>
@@ -46,7 +46,7 @@ export default {
   color: black;
 }
 .link {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   text-decoration: none;
   color: black;
   display: flex;
@@ -57,7 +57,7 @@ export default {
   outline: none;
 }
 .link:hover {
-  background: rgba(0, 0, 255, 0.1);
+  background: #bcdcea;
 }
 .link:active {
   border-bottom: 4px double black;
