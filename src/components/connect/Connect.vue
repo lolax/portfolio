@@ -35,6 +35,7 @@ export default {
     width: 100%;
     height: 50rem;
     margin-top: 3rem;
+    position: relative;
   }
   .bg {
     position: relative;
@@ -54,19 +55,19 @@ export default {
   }
   #mail {
     width: 22rem;
-    bottom: 71rem;
+    top: 0rem;
   }
   #phone {
     width: 18rem;
-    bottom: 64rem;
+    top: 8rem;
   }
   #linkedin {
     width: 15rem;
-    bottom: 57rem;
+    top: 16rem;
   }
   #github {
     width: 12rem;
-    bottom: 49rem;
+    top: 24rem;
   }
   img {
     width: 3rem;
