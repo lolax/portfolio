@@ -3,7 +3,7 @@ import Router from 'vue-router'
 import About from './components/about/About.vue'
 import Portfolio from './components/portfolio/Portfolio.vue'
 import Writing from './components/writing/Writing.vue'
-import Contact from './components/contact/Contact.vue'
+import Connect from './components/connect/Connect.vue'
 import Resume from './components/etc/Resume.vue'
 import NotFound from './components/etc/NotFound.vue'
 
@@ -32,9 +32,9 @@ export default new Router({
       component: Writing,
     },
     {
-      path: '/contact',
-      name: 'contact',
-      component: Contact,
+      path: '/connect',
+      name: 'connect',
+      component: Connect,
     },
     {
       path: '/resume',
