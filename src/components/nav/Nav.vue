@@ -53,7 +53,7 @@ export default {
   justify-content: start;
   align-items: center;
   height: 2rem;
-  padding: 0.5rem;
+  padding: 0.2rem 0.5rem;
   outline: none;
 }
 .link:hover {
@@ -67,6 +67,7 @@ export default {
 }
 .name {
   font-size: 2.6rem;
+  padding: 0.5rem;
   cursor: default;
   border-bottom: 4px double transparent;
 }
