@@ -64,7 +64,9 @@ export default {
     color: black;
     outline: none;
   }
- 
+  .links {
+    margin-left: 2rem;
+  }
   @media (max-width: 700px) {
   .connect-container {
     flex-direction: column;
@@ -76,6 +78,9 @@ export default {
   }
   .side-img {
     width: 98%;
+  }
+  .links {
+    margin-left: 0;
   }
 }
 </style>
