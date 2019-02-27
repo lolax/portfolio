@@ -21,19 +21,15 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .view {
-  width: 60%;
-  max-width: 60rem;
-}
-@media (max-width: 980px) {
-  .view {
-    width: 100%;
-  }
+  width: 70%;
+  max-width: 70rem;
+  margin: 3rem;
 }
 html {
   font-size: 62.5%;
@@ -42,5 +38,10 @@ html {
 body {
   margin: 0;
   background: #f6f6f6;
+}
+@media (max-width: 980px) {
+  .view {
+    width: 100%;
+  }
 }
 </style>
