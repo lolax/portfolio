@@ -26,7 +26,7 @@ export default {
 
 <style scoped>
 .nav-container {
-  margin: 3rem 0;
+  margin-top: 3rem;
   width: 30%;
   max-width: 40rem;
   min-width: 30rem;
