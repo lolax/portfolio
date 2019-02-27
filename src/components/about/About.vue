@@ -1,9 +1,21 @@
 <template>
   <div class='about-container'>
+    <!-- <progressive-img
+      src='../../assets/lola.jpg'
+      placeholder='../../assets/lola-small.jpg'
+    /> -->
     <img class='about-img' alt='Lola standing beside Lake Annecy' src='../../assets/lola.jpg' />
     <h2>It's nice to meet you, I'm Lola Heffernan.</h2>
-    <p>Towards the end of my pre-med Bachelor's program, I was faced with a sizable list of possible career paths. After careful deliberation, I chose "none of the above" and set out to become a software engineer - something I had never envisioned or considered for myself. I have since spent over a year studying full stack web development and computer science, on my own and as a student at Lambda School.</p>
-    <p>I am currently seeking a role as a software engineer on an inclusive and digitally ethical team. If you're hiring or would otherwise like to chat, I'd love to hear from you: 310.386.8394 / lolahef@gmail.com</p>
+    <p>Towards the end of my pre-med Bachelor's program, 
+      I was faced with a sizable list of potential clinical career paths. 
+      After careful deliberation, I chose "none of the above" and set out to become a software engineer 
+      - something I had never envisioned or considered for myself. 
+      I have since spent over a year studying full stack web development and computer science, both on my own and as a student at <a class='inline-link' href='https://lambdaschool.com/' target='_blank'>Lambda School</a>.
+    </p>
+    <p>I am currently seeking a role as a software engineer on an inclusive and ethical team. 
+      If you're hiring, I'd love to hear from you. 
+      Find my contact information <router-link to ='/connect' class='inline-link'>here</router-link> and learn more about me by checking out my <router-link to='/resume' class='inline-link'>resume</router-link>.
+    </p>
   </div>
 </template>
 
@@ -19,10 +31,27 @@ export default {
     height: auto;
   }
   h2 {
+    width: 100%;
     font-size: 2rem;
   }
   p {
     text-align: left;
     font-size: 1.8rem;
+    margin: 1rem 2rem;
+  }
+  .inline-link {
+    border-bottom: 1px solid black;
+    text-decoration: none;
+    color: black;
+  }
+  .inline-link:hover {
+    border-bottom: 4px double black;
+    background: #bcdcea;
+  }
+  @media (max-width: 400px) {
+    h2 {
+      width: 20rem;
+      margin: auto;
+    }
   }
 </style>
