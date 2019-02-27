@@ -1,22 +1,24 @@
 <template>
   <div class='connect-container'>
-    <img class='bg' src='../../assets/backgroundbridge.jpg'/>
-    <a id='mail' class='connect-item' href='mailto:lolahef@gmail.com'>
-      <img src='../../assets/mail.png' alt='Mail icon'>
-      <div>lolahef@gmail.com</div>
-    </a>
-    <a id='phone' class='connect-item' href='tel:+13103868394'>
-      <img src='../../assets/phone.png' alt='Phone icon'>
-      <div>310.386.8394</div>
-    </a>
-    <a id='linkedin' class='connect-item' href='https://www.linkedin.com/in/lola-heffernan/'>
-      <img src='../../assets/linkedin.png' alt='LinkedIn icon'>
-      <div>LinkedIn</div>
-    </a>
-    <a id='github' class='connect-item' href='https://github.com/lolax/'>
-      <img src='../../assets/github.png' alt='Github icon'>
-      <div>Github</div>
-    </a>
+    <img class='side-img' src='../../assets/genevastatue.jpg'/>
+    <div class='links'>
+      <a class='connect-item' href='mailto:lolahef@gmail.com'>
+        <img class='icon' src='../../assets/mail.png' alt='Mail icon'>
+        <div>lolahef@gmail.com</div>
+      </a>
+      <a class='connect-item' href='tel:+13103868394'>
+        <img class='icon' src='../../assets/phone.png' alt='Phone icon'>
+        <div>310.386.8394</div>
+      </a>
+      <a class='connect-item' href='https://www.linkedin.com/in/lola-heffernan/' target='_blank'>
+        <img class='icon' src='../../assets/linkedin.png' alt='LinkedIn icon'>
+        <div>LinkedIn</div>
+      </a>
+      <a class='connect-item' href='https://github.com/lolax/' target='_blank'>
+        <img class='icon' src='../../assets/github.png' alt='Github icon'>
+        <div>Github</div>
+      </a>
+    </div>
   </div>
 </template>
 
@@ -29,47 +31,29 @@ export default {
 <style scoped>
   .connect-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     height: 50rem;
     margin-top: 3rem;
-    position: relative;
   }
-  .bg {
-    position: relative;
-    z-index: 0;
-    width: 140%;
+  .side-img {
+    width: 70%;
   }
   .connect-item {
     display: flex;
-    justify-content: center;
-    background: #f6f6f6;
-    opacity: 0.7;
+    justify-content: flex-start;
     align-items: center;
-    position: absolute;
-    z-index: 1;
-    padding: 0 1rem;
     height: 4rem;
+    padding: 1rem;
+    margin: 0.5rem;
+    border: 1px solid transparent;
   }
-  #mail {
-    width: 22rem;
-    top: 0rem;
+  .connect-item:hover {
+    border: 1px solid black;
   }
-  #phone {
-    width: 18rem;
-    top: 8rem;
-  }
-  #linkedin {
-    width: 15rem;
-    top: 16rem;
-  }
-  #github {
-    width: 12rem;
-    top: 24rem;
-  }
-  img {
+  .icon {
     width: 3rem;
     margin-right: 3rem;
     height: auto;
@@ -80,4 +64,18 @@ export default {
     color: black;
     outline: none;
   }
+ 
+  @media (max-width: 700px) {
+  .connect-container {
+    flex-direction: column;
+    padding-bottom: 2rem;
+    height: auto;
+  }
+  .connect-item {
+    justify-content: space-between;
+  }
+  .side-img {
+    width: 98%;
+  }
+}
 </style>
