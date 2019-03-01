@@ -1,22 +1,27 @@
 <template>
   <div class='connect-container'>
-    <img class='side-img' src='../../assets/genevastatue.jpg'/>
+    <progressive-img
+      class='side-img'
+      alt='Lola standing beside a statue in Geneva'
+      :src="require('../../assets/genevastatue.jpg')"
+      :placeholder="require('../../assets/genevastatue-small.jpg')"
+    />
     <div class='links'>
       <a class='connect-item' href='mailto:lolahef@gmail.com'>
         <img class='icon' src='../../assets/mail.png' alt='Mail icon'>
-        <div>lolahef@gmail.com</div>
+        <div class='link-text'>lolahef@gmail.com</div>
       </a>
       <a class='connect-item' href='tel:+13103868394'>
         <img class='icon' src='../../assets/phone.png' alt='Phone icon'>
-        <div>310.386.8394</div>
+        <div class='link-text'>310.386.8394</div>
       </a>
       <a class='connect-item' href='https://www.linkedin.com/in/lola-heffernan/' target='_blank'>
         <img class='icon' src='../../assets/linkedin.png' alt='LinkedIn icon'>
-        <div>LinkedIn</div>
+        <div class='link-text'>LinkedIn</div>
       </a>
       <a class='connect-item' href='https://github.com/lolax/' target='_blank'>
         <img class='icon' src='../../assets/github.png' alt='Github icon'>
-        <div>Github</div>
+        <div class='link-text'>Github</div>
       </a>
     </div>
   </div>
@@ -40,6 +45,9 @@ export default {
   }
   .side-img {
     width: 70%;
+    -webkit-box-shadow: 0 0 3px 2px lightgrey;
+    -moz-box-shadow: 0 0 3px 2px lightgrey;
+    box-shadow: 0 0 3px 2px lightgrey;
   }
   .connect-item {
     display: flex;
@@ -47,11 +55,13 @@ export default {
     align-items: center;
     height: 4rem;
     padding: 1rem;
-    margin: 0.5rem;
-    border: 1px solid transparent;
+    margin: 2rem;
   }
-  .connect-item:hover {
-    border: 1px solid black;
+  .link-text {
+    border-bottom: 1px solid black;
+  }
+  .link-text:hover {
+    background: #bcdcea;
   }
   .icon {
     width: 3rem;
@@ -69,12 +79,9 @@ export default {
   }
   @media (max-width: 700px) {
   .connect-container {
-    flex-direction: column;
+    flex-direction: column-reverse;
     padding-bottom: 2rem;
     height: auto;
-  }
-  .connect-item {
-    justify-content: space-between;
   }
   .side-img {
     width: 98%;

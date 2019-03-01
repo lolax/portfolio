@@ -1,10 +1,10 @@
 <template>
   <div class='nav-container'>
-    <div class='name-group link-group'>
-      <div class='name'>L</div>
-      <div class='name'>O</div>
-      <div class='name'>L</div>
-      <div class='name'>A</div>
+    <div class='name link-group'>
+      <div class='letter'>L</div>
+      <div class='letter'>O</div>
+      <div class='letter'>L</div>
+      <div class='letter'>A</div>
     </div>
     <div class='link-group'>
       <router-link class='link' to='/about'>about</router-link>
@@ -52,7 +52,7 @@ export default {
   justify-content: start;
   align-items: center;
   height: 2rem;
-  padding: 0.2rem 0.5rem;
+  padding: 0.2rem 0;
   outline: none;
 }
 .link:active {
@@ -61,13 +61,13 @@ export default {
 .separator {
   font-size: 2rem;
 }
-.name {
+.letter {
   font-size: 2.6rem;
   padding: 0.5rem;
   cursor: default;
   border-bottom: 4px double transparent;
 }
-.name-group {
+.name {
   height: 5rem;
 }
 </style>

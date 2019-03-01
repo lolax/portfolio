@@ -1,10 +1,11 @@
 <template>
   <div class='about-container'>
-    <!-- <progressive-img
-      src='../../assets/lola.jpg'
-      placeholder='../../assets/lola-small.jpg'
-    /> -->
-    <img class='about-img' alt='Lola standing beside Lake Annecy' src='../../assets/lola.jpg' />
+    <progressive-img
+      class='about-img'
+      alt='Lola standing beside Lake Annecy'
+      :src="require('../../assets/lola.jpg')"
+      :placeholder="require('../../assets/lola-small.jpg')"
+    />
     <h2>It's nice to meet you, I'm Lola Heffernan.</h2>
     <p>Towards the end of my pre-med Bachelor's program, 
       I was faced with a sizable list of potential clinical career paths. 
@@ -31,6 +32,9 @@ export default {
   .about-img {
     width: 100%;
     height: auto;
+    -webkit-box-shadow: 0 0 2px 2px lightgrey;
+    -moz-box-shadow: 0 0 2px 2px lightgrey;
+    box-shadow: 0 0 2px 2px lightgrey;
   }
   h2 {
     width: 100%;
