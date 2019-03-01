@@ -2,7 +2,10 @@
   <div class='portfolio-container'>
     <div class='project' v-for='project in projects' :key='project.id'>
       <h2>{{project.name}}</h2>
-      <img class='demo' :src='require(`../../assets/${project.gif}`)' alt='Project demo'>
+      <img 
+        class='demo' 
+        :src='require(`../../assets/${project.gif}`)' 
+        alt='Project demo'>
       <p>{{project.description}}</p>
       <div class='links-container'>
         <a 
