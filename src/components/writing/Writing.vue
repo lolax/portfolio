@@ -8,6 +8,6 @@
 export default {
   name: 'Writing',
 }
-</script>
+</script> 
 
 <style scoped></style>
