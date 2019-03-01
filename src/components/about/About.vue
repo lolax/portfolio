@@ -10,11 +10,13 @@
       I was faced with a sizable list of potential clinical career paths. 
       After careful deliberation, I chose "none of the above" and set out to become a software engineer 
       - something I had never envisioned or considered for myself. 
-      I have since spent over a year studying full stack web development and computer science, both on my own and as a student at <a class='inline-link' href='https://lambdaschool.com/' target='_blank'>Lambda School</a>.
+      I have since spent over a year studying full stack web development and computer science, 
+      both on my own and as a student at <a class='inline-link' href='https://lambdaschool.com/' target='_blank'>Lambda School</a>.
     </p>
     <p>I am currently seeking a role as a software engineer on an inclusive and ethical team. 
       If you're hiring, I'd love to hear from you. 
-      Find my contact information <router-link to ='/connect' class='inline-link'>here</router-link> and learn more about me by checking out my <router-link to='/resume' class='inline-link'>resume</router-link>.
+      Find my contact information <router-link to ='/connect' class='inline-link'>here</router-link> 
+      and learn more about me by checking out my <router-link to='/resume' class='inline-link'>resume</router-link>.
     </p>
   </div>
 </template>
@@ -45,7 +47,6 @@ export default {
     color: black;
   }
   .inline-link:hover {
-    border-bottom: 4px double black;
     background: #bcdcea;
   }
   @media (max-width: 400px) {
