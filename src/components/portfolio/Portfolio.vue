@@ -45,17 +45,15 @@
     -moz-box-shadow: 0 0 5px 2px lightgrey;
     box-shadow: 0 0 5px 2px lightgrey;
   }
-
   .demo {
     width: 90%;
   }
-
   .links-container {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
   }
-
   a {
     width: 15rem;
     margin: 1rem 1rem;
@@ -66,13 +64,26 @@
     font-size: 1.4rem;
     text-decoration: none;
   }
-
   a:hover {
     color: white;
     background: black;
   }
-
   p {
     font-size: 1.8rem;
+  }
+  @media (max-width: 700px) {
+    .project {
+      padding: 1rem;
+      margin: 3rem 1rem 5rem;
+    }
+    .demo {
+      width: 100%;
+    }
+    .links-container {
+      flex-direction: column;
+    }
+    a {
+      width: 80%;
+    }
   }
 </style>
