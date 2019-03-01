@@ -26,7 +26,7 @@ export default {
 
 <style scoped>
 .nav-container {
-  margin: 3rem 0;
+  margin-top: 3rem;
   width: 30%;
   max-width: 40rem;
   min-width: 30rem;
@@ -36,7 +36,6 @@ export default {
 .router-link-active {
   border-bottom: 4px double black;
 }
-
 .link-group {
   display: flex;
   justify-content: space-between;
@@ -55,9 +54,6 @@ export default {
   height: 2rem;
   padding: 0.2rem 0.5rem;
   outline: none;
-}
-.link:hover {
-  background: #bcdcea;
 }
 .link:active {
   border-bottom: 4px double black;

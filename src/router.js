@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import About from './components/about/About.vue'
 import Portfolio from './components/portfolio/Portfolio.vue'
 import Writing from './components/writing/Writing.vue'
+import Post from './components/writing/posts/Post.vue'
 import Connect from './components/connect/Connect.vue'
 import Resume from './components/etc/Resume.vue'
 import NotFound from './components/etc/NotFound.vue'
@@ -30,6 +31,11 @@ export default new Router({
       path: '/writing',
       name: 'writing',
       component: Writing,
+    },
+    {
+      path: '/writing/:title',
+      name: 'post',
+      component: Post,
     },
     {
       path: '/connect',
