@@ -2,6 +2,7 @@
   <div class='about-container'>
     <progressive-img
       class='about-img'
+      alt='Lola standing beside Lake Annecy'
       :src="require('../../assets/lola.jpg')"
       :placeholder="require('../../assets/lola-small.jpg')"
     />
