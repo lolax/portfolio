@@ -36,7 +36,6 @@ export default {
 .router-link-active {
   border-bottom: 4px double black;
 }
-
 .link-group {
   display: flex;
   justify-content: space-between;
@@ -55,9 +54,6 @@ export default {
   height: 2rem;
   padding: 0.2rem 0.5rem;
   outline: none;
-}
-.link:hover {
-  background: #bcdcea;
 }
 .link:active {
   border-bottom: 4px double black;
