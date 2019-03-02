@@ -45,6 +45,7 @@ export default {
   }
   .side-img {
     width: 70%;
+    height: auto;
     -webkit-box-shadow: 0 0 3px 2px lightgrey;
     -moz-box-shadow: 0 0 3px 2px lightgrey;
     box-shadow: 0 0 3px 2px lightgrey;
