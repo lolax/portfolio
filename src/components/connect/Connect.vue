@@ -78,17 +78,35 @@ export default {
   .links {
     margin-left: 2rem;
   }
-  @media (max-width: 700px) {
-  .connect-container {
-    flex-direction: column-reverse;
-    padding-bottom: 2rem;
-    height: auto;
+  @media (max-width: 980px) {
+    .connect-container {
+      flex-direction: column-reverse;
+      padding-bottom: 2rem;
+      height: auto;
+    }
+    .side-img {
+      width: 98%;
+    }
+    
   }
-  .side-img {
-    width: 98%;
-  }
-  .links {
-    margin-left: 0;
-  }
-}
+  /* @media (max-width: 980px) {
+    .connect-container {
+      flex-direction: column-reverse;
+      padding-bottom: 2rem;
+      height: auto;
+    }
+    .side-img {
+      width: 100%;
+      max-width: 70rem!important;
+    }
+    .connect-item {
+      font-size: 4rem;
+    }
+    .icon {
+      width: 5rem;
+    }
+    .links {
+      margin: 3rem 0;
+    }
+  } */
 </style>
