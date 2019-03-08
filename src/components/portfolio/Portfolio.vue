@@ -1,7 +1,9 @@
 <template>
   <div class='portfolio-container'>
     <div class='project' v-for='project in projects' :key='project.id'>
-      <h2>{{project.name}}</h2>
+      <a class='title-link' :href='project.links[0].href' target='_blank'>
+        <h2>{{project.name}}</h2>
+      </a>
       <img 
         class='demo' 
         :src='require(`../../assets/${project.gif}`)' 
@@ -9,6 +11,7 @@
       <p>{{project.description}}</p>
       <div class='links-container'>
         <a 
+          class='link'
           v-for='link in project.links' 
           :key='link.id' 
           :href='link.href'
@@ -33,8 +36,13 @@
 </script>
 
 <style scoped>
+  .title-link {
+    color: black;
+    text-decoration: none;
+  }
   h2 {
     font-size: 2rem;
+    font-weight: 500;
   }
   .project {
     background:#F8F8F8;
@@ -54,24 +62,26 @@
     align-items: center;
     justify-content: center;
   }
-  a {
+  .link {
     width: 15rem;
     margin: 1rem 1rem;
     padding: 1.2rem 0;
     color: black;
     border: 1px solid black;
     background: transparent;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+    font-weight: 400;
     text-decoration: none;
   }
-  a:hover {
+  .link:hover {
     color: white;
     background: black;
+    font-weight: 500;
   }
   p {
     font-size: 1.8rem;
   }
-  @media (max-width: 700px) {
+  @media (max-width: 980px) {
     .project {
       padding: 1rem;
       margin: 3rem 1rem 5rem;
@@ -82,7 +92,7 @@
     .links-container {
       flex-direction: column;
     }
-    a {
+    .link {
       width: 80%;
     }
   }
