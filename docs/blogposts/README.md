@@ -1,0 +1,2 @@
+# It's blog
+<Posts />

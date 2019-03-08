@@ -39,6 +39,7 @@ export default {
   h2 {
     width: 100%;
     font-size: 2rem;
+    font-weight: 500;
   }
   p {
     text-align: left;
@@ -53,10 +54,19 @@ export default {
   .inline-link:hover {
     background: #bcdcea;
   }
-  @media (max-width: 400px) {
+  @media (max-width: 700px) {
     h2 {
-      width: 20rem;
-      margin: auto;
+      width: 23rem;
+      margin: 1rem auto;
     }
   }
+  /* @media (max-width: 400px) {
+    h2 {
+      width: 23rem;
+      margin: auto;
+    }
+    p {
+      margin: 2rem 2rem;
+    }
+  } */
 </style>

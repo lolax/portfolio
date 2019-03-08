@@ -1,12 +1,12 @@
 <template>
   <div class='resume-container'>
-    <h1>resume</h1>
   </div>
 </template>
 
 <script>
+
 export default {
-  name: 'Resume',
+  name: 'Resume'
 }
 </script>
 
