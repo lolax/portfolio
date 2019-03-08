@@ -10,14 +10,15 @@ import Nav from './components/nav/Nav.vue'
 export default {
   name: 'app',
   components: {
-    Nav,
+    Nav
   },
 }
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500');
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -42,6 +43,7 @@ body {
 @media (max-width: 980px) {
   .view {
     width: 100%;
+    max-width: 100rem;
   }
 }
 </style>
