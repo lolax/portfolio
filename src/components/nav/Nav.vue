@@ -70,4 +70,30 @@ export default {
 .name {
   height: 5rem;
 }
+
+@media (max-width: 400px) {
+  .nav-container {
+    width: 90%;
+  }
+}
+/* @media (max-width: 400px) {
+  .nav-container {
+    width: 90%;
+    max-width: 90rem;
+  } 
+  .letter {
+    font-size: 5rem;
+  }
+  .link {
+    font-size: 4rem;
+    height: 4.5rem;
+    padding: 0.2rem 0;
+  }
+  .separator {
+    font-size: 4rem;
+  }
+  .name {
+    margin: 1rem 0 3rem;
+  } */
+/* } */
 </style>
