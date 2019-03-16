@@ -9,7 +9,7 @@ const projectData = [
   { 
     id: 2,
     name: 'Recipes',
-    description: 'What\'s Cooking is a great app, world class, the best. I love it because it\'s about food.',
+    description: 'Recipes is a great app, world class, the best. I love it because it\'s about food.',
     links: [{text: 'Application', href: 'https://recipes.lola.codes/', id: 'cookin-app'}, {text: 'Repository', href: 'https://github.com/lolax/L-L-Recipes', id: 'cookin-repo'}],
     gif: 'recipes.png'
   },
