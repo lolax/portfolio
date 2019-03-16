@@ -46,7 +46,7 @@
   }
   .project {
     background:#F8F8F8;
-    margin: 6rem 1rem;
+    margin: 1rem 1rem 4rem;
     padding: 3rem;
     border-radius: 3px;
     -webkit-box-shadow: 0 0 5px 2px lightgrey;

@@ -31,11 +31,6 @@ export default new Router({
       name: 'writing',
       component: Writing,
     },
-    // {
-    //   path: '/posts',
-    //   name: 'post',
-    //   component: Post,
-    // },
     {
       path: '/connect',
       name: 'connect',

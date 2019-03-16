@@ -41,7 +41,7 @@ export default {
     align-items: center;
     width: 100%;
     height: 50rem;
-    margin-top: 3rem;
+    margin-top: 1rem;
   }
   .side-img {
     width: 70%;
