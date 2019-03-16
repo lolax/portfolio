@@ -35,6 +35,7 @@ export default {
     -webkit-box-shadow: 0 0 2px 2px lightgrey;
     -moz-box-shadow: 0 0 2px 2px lightgrey;
     box-shadow: 0 0 2px 2px lightgrey;
+    margin: 1rem 0;
   }
   h2 {
     width: 100%;
