@@ -1,7 +1,6 @@
 <template>
   <div class='resume-container'>
-    <img class='resume' src='../../assets/Lola Heffernan.png' alt='Lola Heffernan Resume'>
-     <a class='resume-download' href='../../assets/Lola Heffernan.png' download='LolaHeffernanResume'>download</a>
+    <img class='resume' src='../../assets/LolaHeffernan.png' alt='Lola Heffernan Resume'>
   </div>
 </template>
 
@@ -20,21 +19,5 @@ export default {
   .resume {
     width: 100%;
     margin: 1rem 0 3rem;
-  }
-  .resume-download {
-    width: 18rem;
-    margin: 3rem;
-    padding: 2rem;
-    color: black;
-    border: 1px solid black;
-    background: transparent;
-    font-size: 1.2rem;
-    font-weight: 400;
-    text-decoration: none;
-  }
-  .resume-download:hover {
-    color: white;
-    background: black;
-    font-weight: 500;
   }
 </style>

@@ -2,7 +2,7 @@ const projectData = [
   { 
     id: 1,
     name: 'Backpaca',
-    description: 'Bacpaca is an web application that allows users to visualize their travel experiences and plan future adventures with their friends.',
+    description: 'Bacpaca is a web application that allows users to visualize their travel experiences and plan future adventures with their friends.',
     links: [{text: 'Website', href: 'https://backpaca.app/', id: 'backpaca-app'}, {text: 'Repository', href: 'https://github.com/Lambda-School-Labs/labs9-map-scratcher/', id: 'backpaca-repo'}],
     stack: "Built with React, Apollo Client, GraphQL Yoga, and Prisma.",
     gif: 'backpaca.png'
