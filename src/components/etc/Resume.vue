@@ -1,7 +1,7 @@
 <template>
   <div class='resume-container'>
     <img class='resume' src='../../assets/Lola Heffernan.png' alt='Lola Heffernan Resume'>
-     <a class='resume-download' href='../../assets/Lola Heffernan.png' download='LolaHeffernanResume'>download</a>
+     <a class='resume-download' href='../../assets/LolaHeffernan.png' download>download</a>
   </div>
 </template>
 
