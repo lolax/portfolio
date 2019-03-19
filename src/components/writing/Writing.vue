@@ -5,12 +5,16 @@
         class='option code' 
         href='https://github.com/lolax/'
         target='_blank'
-      >code</a>
+      >
+        <div class='code-text'>code</div>
+      </a>
       <a 
         class='option blog' 
         href='https://blog.lola.dev/'
         target='_blank'
-      >blog</a>
+      >
+        <div class='blog-text'>blog</div>
+      </a>
     </div>
   </div>
 </template>
@@ -27,7 +31,6 @@
     justify-content: center;
   }
   .option {
-    font-size: 24px;
     display: flex;
     margin: 10px -100px;
     width: 200px;
@@ -37,19 +40,30 @@
     background: #bcdcea;
     color: black;
     text-decoration: none;
+    position: relative;
   }
   .option:hover {
     background: black;
     color: white;
   }
   .code {
-    justify-content: start;
-    align-items: start;
     clip-path: polygon(0 0, 0 100%, 100% 0);
   }
   .blog {
-    justify-content: end;
-    align-items: end;
     clip-path: polygon(100% 0, 0 100%, 100% 100%);
+  }
+  .code-text {
+    font-size: 24px;
+    position: absolute;
+    z-index: 2;
+    top: 10px;
+    left: 10px;
+  }
+  .blog-text {
+    font-size: 24px;
+    position: absolute;
+    z-index: 2;
+    bottom: 10px;
+    right: 10px;
   }
 </style>
