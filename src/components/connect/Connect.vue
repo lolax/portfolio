@@ -15,7 +15,7 @@
         <img class='icon' src='../../assets/phone.png' alt='Phone icon'>
         <div class='link-text'>310.386.8394</div>
       </a>
-      <a class='connect-item' href='https://www.linkedin.com/in/lola-heffernan/' target='_blank'>
+      <a class='connect-item' href='www.linkedin.com/in/lolahef' target='_blank'>
         <img class='icon' src='../../assets/linkedin.png' alt='LinkedIn icon'>
         <div class='link-text'>LinkedIn</div>
       </a>
