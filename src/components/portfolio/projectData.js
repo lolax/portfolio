@@ -2,22 +2,25 @@ const projectData = [
   { 
     id: 1,
     name: 'Backpaca',
-    description: 'Backpaca is a great app, world class, the best. I love it because it\'s about alpacas.',
-    links: [{text: 'Application', href: 'https://backpaca.app/', id: 'backpaca-app'}, {text: 'Repository', href: 'https://github.com/Lambda-School-Labs/labs9-map-scratcher/', id: 'backpaca-repo'}],
+    description: 'Bacpaca is an web application that allows users to visualize their travel experiences and plan future adventures with their friends.',
+    links: [{text: 'Website', href: 'https://backpaca.app/', id: 'backpaca-app'}, {text: 'Repository', href: 'https://github.com/Lambda-School-Labs/labs9-map-scratcher/', id: 'backpaca-repo'}],
+    stack: "Built with React, Apollo Client, GraphQL Yoga, and Prisma.",
     gif: 'backpaca.png'
   },
   { 
     id: 2,
     name: 'Recipes',
-    description: 'Recipes is a great app, world class, the best. I love it because it\'s about food.',
-    links: [{text: 'Application', href: 'https://recipes.lola.codes/', id: 'cookin-app'}, {text: 'Repository', href: 'https://github.com/lolax/L-L-Recipes', id: 'cookin-repo'}],
+    description: 'A simple place to store your favorite recipes.',
+    links: [{text: 'Website', href: 'https://recipes.lola.codes/', id: 'cookin-app'}, {text: 'Repository', href: 'https://github.com/lolax/L-L-Recipes', id: 'cookin-repo'}],
+    stack: "Built with Vue, Express, Node, PostgreSQL, and firebase.",
     gif: 'recipes.png'
   },
   { 
     id: 3,
     name: 'Notes',
-    description: 'Notes is a great app, world class, the best. I love it because it\'s about notes.',
-    links: [{text: 'Application', href: 'https://notes.lola.codes/', id: 'notes-app'}, {text: 'Backend Repository', href: 'https://github.com/lolax/back-end-project-week', id: 'notes-backend'}, {text: 'Frontend Repository', href: 'https://github.com/lolax/notes-frontend', id: 'notes-frontend'}],
+    description: 'A minimalist notes application where you can search, add, update, clone, and delete your notes.',
+    links: [{text: 'Website', href: 'https://notes.lola.codes/', id: 'notes-app'}, {text: 'Backend Repository', href: 'https://github.com/lolax/back-end-project-week', id: 'notes-backend'}, {text: 'Frontend Repository', href: 'https://github.com/lolax/notes-frontend', id: 'notes-frontend'}],
+    stack: "Built with Vue, Express, Node, PostgreSQL, and firebase.",
     gif: 'notes.png'
   },
 ]

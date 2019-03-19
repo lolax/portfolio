@@ -9,6 +9,7 @@
         :src='require(`../../assets/${project.gif}`)' 
         alt='Project demo'>
       <p>{{project.description}}</p>
+      <p>{{project.stack}}</p>
       <div class='links-container'>
         <a 
           class='link'
