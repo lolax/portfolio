@@ -10,7 +10,7 @@
     <p>Towards the end of my pre-med Bachelor's program, 
       I was faced with a sizable list of potential clinical career paths. 
       After careful deliberation, I chose "none of the above" and set out to become a software engineer 
-      - something I had never envisioned or considered for myself. 
+      — something I had never envisioned or even considered for myself. 
       I have since spent over a year studying full stack web development and computer science, 
       both on my own and as a student at <a class='inline-link' href='https://lambdaschool.com/' target='_blank'>Lambda School</a>.
     </p>
@@ -45,7 +45,7 @@ export default {
   p {
     text-align: left;
     font-size: 1.8rem;
-    margin: 1rem 2rem;
+    margin: 3rem 4rem;
   }
   .inline-link {
     border-bottom: 1px solid black;
@@ -61,13 +61,4 @@ export default {
       margin: 1rem auto;
     }
   }
-  /* @media (max-width: 400px) {
-    h2 {
-      width: 23rem;
-      margin: auto;
-    }
-    p {
-      margin: 2rem 2rem;
-    }
-  } */
 </style>
