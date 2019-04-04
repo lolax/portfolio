@@ -1,6 +1,10 @@
 <template>
   <div class='resume-container'>
-    <img class='resume' src='../../assets/LolaHeffernan.png' alt='Lola Heffernan Resume'>
+    <progressive-img
+      class='resume'
+      alt='Lola Heffernan Resume'
+      :src="require('../../assets/resume.png')"
+    />
   </div>
 </template>
 
