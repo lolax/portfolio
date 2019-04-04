@@ -40,7 +40,7 @@ body {
   margin: 0;
   background: #f6f6f6;
 }
-@media (max-width: 980px) {
+@media (max-width: 800px) {
   .view {
     width: 100%;
     max-width: 100rem;
