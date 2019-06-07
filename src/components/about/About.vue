@@ -10,14 +10,12 @@
     <p>Towards the end of my pre-med Bachelor's program, 
       I was faced with a sizable list of potential clinical career paths. 
       After careful deliberation, I chose "none of the above" and set out to become a software engineer 
-      — something I had never envisioned or even considered for myself. 
-      I have since spent over a year studying full stack web development and computer science, 
-      both on my own and as a student at <a class='inline-link' href='https://lambdaschool.com/' target='_blank'>Lambda School</a>.
+      — something I had never envisioned or even considered for myself.
     </p>
-    <p>I am currently seeking a role as a software engineer on an inclusive and ethical team. 
-      If you're hiring, I'd love to hear from you. 
-      Find my contact information <router-link to ='/connect' class='inline-link'>here</router-link> 
-      and learn more about me by checking out my <router-link to='/resume' class='inline-link'>resume</router-link>.
+    <p>
+      To that end, I spent over a year studying full stack web development and computer science, 
+      both on my own and as a student at <a class='inline-link' href='https://lambdaschool.com/' target='_blank'>Lambda School</a>.
+      I am currently a software engineer at <a class='inline-link' href='https://www.elsevier.com/' target='_blank'>Elsevier</a> in NYC.
     </p>
   </div>
 </template>
