@@ -37,11 +37,6 @@ export default new Router({
       component: Connect,
     },
     {
-      path: '/resume',
-      name: 'resume',
-      component: Resume,
-    },
-    {
       path: '*',
       component: NotFound,
     },
