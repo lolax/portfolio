@@ -1,10 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import About from './components/about/About.vue'
-import Portfolio from './components/portfolio/Portfolio.vue'
-import Writing from './components/writing/Writing.vue'
-import Connect from './components/connect/Connect.vue'
-import Resume from './components/etc/Resume.vue'
 import NotFound from './components/etc/NotFound.vue'
  
 Vue.use(Router)
@@ -14,27 +10,7 @@ export default new Router({
   routes: [
     {
       path: '/',
-      redirect: '/about'
-    },
-    {
-      path: '/about',
-      name: 'about',
-      component: About,
-    },
-    {
-      path: '/portfolio',
-      name: 'portfolio',
-      component: Portfolio,
-    },
-    {
-      path: '/writing',
-      name: 'writing',
-      component: Writing,
-    },
-    {
-      path: '/connect',
-      name: 'connect',
-      component: Connect,
+      component: About
     },
     {
       path: '*',
