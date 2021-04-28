@@ -10,7 +10,7 @@
       </a>
       <a 
         class='option blog' 
-        href='https://blog.lola.dev/'
+        href='https://blog.lorelei.dev/'
         target='_blank'
       >
         <div class='blog-text'>blog</div>

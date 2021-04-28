@@ -2,7 +2,7 @@
   <div class='resume-container'>
     <progressive-img
       class='resume'
-      alt='Lola Heffernan Resume'
+      alt='Lorelei Heffernan Resume'
       :src="require('../../assets/resume.png')"
     />
   </div>

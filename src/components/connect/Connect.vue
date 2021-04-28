@@ -2,7 +2,7 @@
   <div class='connect-container'>
     <progressive-img
       class='side-img'
-      alt='Lola standing beside a statue in Geneva'
+      alt='Lorelei standing beside a statue in Geneva'
       :src="require('../../assets/genevastatue.jpg')"
       :placeholder="require('../../assets/genevastatue-small.jpg')"
     />
