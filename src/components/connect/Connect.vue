@@ -19,7 +19,7 @@
         <img class='icon' src='../../assets/linkedin.png' alt='LinkedIn icon'>
         <div class='link-text'>LinkedIn</div>
       </a>
-      <a class='connect-item' href='https://github.com/lolax/' target='_blank'>
+      <a class='connect-item' href='https://github.com/lolahef/' target='_blank'>
         <img class='icon' src='../../assets/github.png' alt='Github icon'>
         <div class='link-text'>Github</div>
       </a>

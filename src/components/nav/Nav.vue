@@ -3,10 +3,6 @@
     <div class='link-group'>
       <router-link class='link' to='/about'>about</router-link>
       <div class='separator'>/</div>
-      <router-link class='link' to='/portfolio'>portfolio</router-link>
-      <div class='separator'>/</div>
-      <router-link class='link' to='/writing'>writing</router-link>
-      <div class='separator'>/</div>
       <router-link class='link' to='/connect'>connect</router-link>
     </div>
   </div>
