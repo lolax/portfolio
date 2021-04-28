@@ -66,6 +66,10 @@ export default {
       width: 23rem;
       margin: 1rem auto;
     }
+    .links {
+      flex-direction: column;
+      align-items: flex-start !important;
+    }
   }
   .connect-item {
     display: flex;
