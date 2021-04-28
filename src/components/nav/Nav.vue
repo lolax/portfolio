@@ -1,11 +1,5 @@
 <template>
   <div class='nav-container'>
-    <div class='name link-group'>
-      <div class='letter'>L</div>
-      <div class='letter'>O</div>
-      <div class='letter'>L</div>
-      <div class='letter'>A</div>
-    </div>
     <div class='link-group'>
       <router-link class='link' to='/about'>about</router-link>
       <div class='separator'>/</div>

@@ -2,11 +2,11 @@
   <div class='about-container'>
     <progressive-img
       class='about-img'
-      alt='Lola standing beside Lake Annecy'
+      alt='Lorelei standing beside Lake Annecy'
       :src="require('../../assets/lola.jpg')"
       :placeholder="require('../../assets/lola-small.jpg')"
     />
-    <h2>It's nice to meet you, I'm Lola Heffernan.</h2>
+    <h2>It's nice to meet you, I'm Lorelei Heffernan.</h2>
     <p>Towards the end of my pre-med Bachelor's program, 
       I was faced with a sizable list of potential clinical career paths. 
       After careful deliberation, I chose "none of the above" and set out to become a software engineer 
