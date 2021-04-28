@@ -11,6 +11,20 @@
       I'm a Software Engineer at <a class='inline-link' href='https://www.elsevier.com/' target='_blank'>Elsevier</a> in NYC.
       Before that I studied Computer Science with an emphasis in Web Development at <a class='inline-link' href='https://lambdaschool.com/' target='_blank'>Lambda School</a> and received a Bachelor's of Science in Health Sciences from Drexel University.
     </p>
+    <div class='links'>
+      <a class='connect-item' href='mailto:lolahef@gmail.com'>
+        <img class='icon' src='../../assets/mail.png' alt='Mail icon'>
+        <div class='link-text'>lolahef@gmail.com</div>
+      </a>
+      <a class='connect-item' href='https://linkedin.com/in/lolahef' target='_blank'>
+        <img class='icon' src='../../assets/linkedin.png' alt='LinkedIn icon'>
+        <div class='link-text'>LinkedIn</div>
+      </a>
+      <a class='connect-item' href='https://github.com/lolahef/' target='_blank'>
+        <img class='icon' src='../../assets/github.png' alt='Github icon'>
+        <div class='link-text'>Github</div>
+      </a>
+    </div>
   </div>
 </template>
 
@@ -52,5 +66,33 @@ export default {
       width: 23rem;
       margin: 1rem auto;
     }
+  }
+  .connect-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 4rem;
+    padding: 1rem;
+    margin: 2rem;
+  }
+  .link-text {
+    border-bottom: 1px solid black;
+  }
+  .link-text:hover {
+    background: #bcdcea;
+  }
+  .icon {
+    width: 3rem;
+    margin-right: 3rem;
+    height: auto;
+  }
+  a {
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: black;
+    outline: none;
+  }
+  .links {
+    margin-left: 2rem;
   }
 </style>
