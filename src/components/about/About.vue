@@ -69,7 +69,7 @@ export default {
   }
   .connect-item {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     height: 4rem;
     padding: 1rem;
