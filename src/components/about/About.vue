@@ -69,11 +69,10 @@ export default {
   }
   .connect-item {
     display: flex;
-    justify-content: center;
     align-items: center;
     height: 4rem;
     padding: 1rem;
-    margin: 2rem;
+    margin: 0 2rem 2rem;
   }
   .link-text {
     border-bottom: 1px solid black;
@@ -93,6 +92,8 @@ export default {
     outline: none;
   }
   .links {
-    margin-left: 2rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
   }
 </style>
