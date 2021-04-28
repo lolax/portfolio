@@ -5,12 +5,8 @@
 </template>
 
 <script>
-import Nav from './components/nav/Nav.vue'
 export default {
   name: 'app',
-  components: {
-    Nav
-  },
 }
 </script>
 
