@@ -7,16 +7,24 @@
       :placeholder="require('../../assets/lola-small.jpg')"
     />
     <h2>It's nice to meet you, I'm Lorelei Heffernan.</h2>
-    <p>Towards the end of my pre-med Bachelor's program, 
-      I was faced with a sizable list of potential clinical career paths. 
-      After careful deliberation, I chose "none of the above" and set out to become a software engineer 
-      — something I had never envisioned or even considered for myself.
-    </p>
     <p>
-      To that end, I spent over a year studying full stack web development and computer science, 
-      both on my own and as a student at <a class='inline-link' href='https://lambdaschool.com/' target='_blank'>Lambda School</a>.
-      I am currently a software engineer at <a class='inline-link' href='https://www.elsevier.com/' target='_blank'>Elsevier</a> in NYC.
+      I'm a Software Engineer at <a class='inline-link' href='https://www.elsevier.com/' target='_blank'>Elsevier</a> in NYC.
+      Before that I studied Computer Science with an emphasis in Web Development at <a class='inline-link' href='https://lambdaschool.com/' target='_blank'>Lambda School</a> and received a Bachelor's of Science in Health Sciences from Drexel University.
     </p>
+    <div class='links'>
+      <a class='connect-item' href='mailto:lolahef@gmail.com'>
+        <img class='icon' src='../../assets/mail.png' alt='Mail icon'>
+        <div class='link-text'>lolahef@gmail.com</div>
+      </a>
+      <a class='connect-item' href='https://linkedin.com/in/lolahef' target='_blank'>
+        <img class='icon' src='../../assets/linkedin.png' alt='LinkedIn icon'>
+        <div class='link-text'>LinkedIn</div>
+      </a>
+      <a class='connect-item' href='https://github.com/lolahef/' target='_blank'>
+        <img class='icon' src='../../assets/github.png' alt='Github icon'>
+        <div class='link-text'>Github</div>
+      </a>
+    </div>
   </div>
 </template>
 
@@ -58,5 +66,38 @@ export default {
       width: 23rem;
       margin: 1rem auto;
     }
+    .links {
+      flex-direction: column;
+      align-items: flex-start !important;
+    }
+  }
+  .connect-item {
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    padding: 1rem;
+    margin: 0 2rem 2rem;
+  }
+  .link-text {
+    border-bottom: 1px solid black;
+  }
+  .link-text:hover {
+    background: #bcdcea;
+  }
+  .icon {
+    width: 3rem;
+    margin-right: 3rem;
+    height: auto;
+  }
+  a {
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: black;
+    outline: none;
+  }
+  .links {
+    align-items: center;
+    justify-content: center;
+    display: flex;
   }
 </style>
