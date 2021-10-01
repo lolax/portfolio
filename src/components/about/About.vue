@@ -8,8 +8,9 @@
     />
     <h2>It's nice to meet you, I'm Lorelei Heffernan.</h2>
     <p>
-      I'm a Software Engineer at <a class='inline-link' href='https://www.elsevier.com/' target='_blank'>Elsevier</a> in NYC.
-      Before that I studied Computer Science with an emphasis in Web Development at <a class='inline-link' href='https://lambdaschool.com/' target='_blank'>Lambda School</a> and received a Bachelor's of Science in Health Sciences from Drexel University.
+      I'm a Software Engineer at <a class='inline-link' href='https://www.helloalpha.com/' target='_blank'>Alpha Medical</a>, living in Delaware.
+      Prior to this role, I spent two years as a Software Engineer at Elsevier.
+      I studied Computer Science with an emphasis in Web Development at <a class='inline-link' href='https://lambdaschool.com/' target='_blank'>Lambda School</a> and received a Bachelor's of Science in Health Sciences from Drexel University.
     </p>
     <div class='links'>
       <a class='connect-item' href='mailto:lolahef@gmail.com'>
