@@ -6,7 +6,7 @@
       :src="require('../../assets/lola.jpg')"
       :placeholder="require('../../assets/lola-small.jpg')"
     />
-    <h2>It's nice to meet you, I'm Lorelei Heffernan.</h2>
+    <h2>It's nice to meet you, I'm Lorelei Kravinsky.</h2>
     <p>
       I'm a Software Engineer at <a class='inline-link' href='https://www.helloalpha.com/' target='_blank'>Alpha Medical</a>, living in Delaware.
       Prior to this role, I spent two years as a Software Engineer at Elsevier.
