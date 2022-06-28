@@ -1,31 +1,6 @@
 <template>
   <div class='about-container'>
-    <progressive-img
-      class='about-img'
-      alt='Lorelei standing beside Lake Annecy'
-      :src="require('../../assets/lola.jpg')"
-      :placeholder="require('../../assets/lola-small.jpg')"
-    />
-    <h2>It's nice to meet you, I'm Lorelei Kravinsky.</h2>
-    <p>
-      I'm a Software Engineer at <a class='inline-link' href='https://www.helloalpha.com/' target='_blank'>Alpha Medical</a>, living in Delaware.
-      Prior to this role, I spent two years as a Software Engineer at Elsevier.
-      I studied Computer Science with an emphasis in Web Development at <a class='inline-link' href='https://www.bloomtech.com/' target='_blank'>Bloom Institute of Technology (formerly Lambda School)</a> and received a Bachelor's of Science in Health Sciences from Drexel University.
-    </p>
-    <div class='links'>
-      <a class='connect-item' href='mailto:lolahef@gmail.com'>
-        <img class='icon' src='../../assets/mail.png' alt='Mail icon'>
-        <div class='link-text'>lolahef@gmail.com</div>
-      </a>
-      <a class='connect-item' href='https://linkedin.com/in/lolahef' target='_blank'>
-        <img class='icon' src='../../assets/linkedin.png' alt='LinkedIn icon'>
-        <div class='link-text'>LinkedIn</div>
-      </a>
-      <a class='connect-item' href='https://github.com/lolahef/' target='_blank'>
-        <img class='icon' src='../../assets/github.png' alt='Github icon'>
-        <div class='link-text'>Github</div>
-      </a>
-    </div>
+    There's nothing here right now :)
   </div>
 </template>
 
